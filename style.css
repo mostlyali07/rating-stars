@@ -39,3 +39,11 @@
     background-color: gold;
     color: #fff;
 }
+.textArea{
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+#myButton{
+    align-items: center;
+    text-align: center;
+}
