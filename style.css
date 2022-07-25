@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Poppins-Regular.ttf);
+}
+.starBox {
+    height: 400px;
+    margin-top: 10%;
+    -webkit-box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22);
+}
+.mainHeading{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Poppins";
+    text-align: center;
+}
+.starMain{
+    text-align: center;
+}
+.fa-star{
+    color: #000;
+    font-size: 55px;
+}
+.fa-star:hover{
+    background-color: gold;
+    color: #fff;
+}
+.fa-star:checked{
+    background-color: gold;
+    color: #fff;
+}
+.fa-star:focus{ 
+    background-color: gold;
+    color: #fff;
+}
