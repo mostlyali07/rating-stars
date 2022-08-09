@@ -1,3 +1,89 @@
+function starRating21() {
+    document.getElementById("ratingInput").style.display = 'none';
+    document.getElementById("myButton").style.display = 'none';
+    star1.style.color = "#000";
+    star2.style.color = "#000";
+    star3.style.color = "#000";
+    star4.style.color = "#000";
+    star5.style.color = "#000";
+    star1.style.background = "#fff";
+    star2.style.background = "#fff";
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+}
+function starRating22() {
+    document.getElementById("ratingInput").style.display = 'none';
+    document.getElementById("myButton").style.display = 'none';
+    star1.style.color = "#000";
+    star2.style.color = "#000";
+    star3.style.color = "#000";
+    star4.style.color = "#000";
+    star5.style.color = "#000";
+    star1.style.background = "#fff";
+    star2.style.background = "#fff";
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+}
+function starRating23() {
+    document.getElementById("ratingInput").style.display = 'none';
+    document.getElementById("myButton").style.display = 'none';
+    star1.style.color = "#000";
+    star2.style.color = "#000";
+    star3.style.color = "#000";
+    star4.style.color = "#000";
+    star5.style.color = "#000";
+    star1.style.background = "#fff";
+    star2.style.background = "#fff";
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
+}
+function starRating24() {
+    document.getElementById("ratingInput").style.display = 'none';
+    document.getElementById("myButton").style.display = 'none';
+    star1.style.color = "#000";
+    star2.style.color = "#000";
+    star3.style.color = "#000";
+    star4.style.color = "#000";
+    star5.style.color = "#000";
+    star1.style.background = "#fff";
+    star2.style.background = "#fff";
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
+    star4.style.borderRadius = '8px';
+}
+function starRating25() {
+    document.getElementById("ratingInput").style.display = 'none';
+    document.getElementById("myButton").style.display = 'none';
+    star1.style.color = "#000";
+    star2.style.color = "#000";
+    star3.style.color = "#000";
+    star4.style.color = "#000";
+    star5.style.color = "#000";
+    star1.style.background = "#fff";
+    star2.style.background = "#fff";
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
+    star4.style.borderRadius = '8px';
+    star5.style.borderRadius = '8px';
+}
+
 function starRating11() {
     document.getElementById("ratingInput").style.display = 'none';
     document.getElementById("myButton").style.display = 'none';
