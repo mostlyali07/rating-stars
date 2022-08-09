@@ -15,15 +15,53 @@
 <body>
     <div class="container">
         <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="main_text">
+                    <h2>Rating & Reviews</h2>
+                    <h1>4.6</h1>
+                    <h3>Out of 5.0</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <button>See All</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="review__rating__stats">
+                                <div class="review__rating__progress">
+                                    <strong class="review__rating__level">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </strong>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 starBox rounded">
-                <h3 class="mainHeading">Submit Your Reviews Or Rating:</h3>
+                <h3 class="mainHeading">Submit Your Rating & Reviews:</h3>
                 <div class="starMain">
-                    <i class="fa-regular fa-star star_one" onclick="starRating1()" id="star1"></i>
-                    <i class="fa-regular fa-star star_two" onclick="starRating2()" id="star2"></i>
-                    <i class="fa-regular fa-star star_three" onclick="starRating3()" id="star3"></i>
-                    <i class="fa-regular fa-star star_four" onclick="starRating4()" id="star4"></i>
-                    <i class="fa-regular fa-star star_five" onclick="starRating5()" id="star5"></i>
+                    <i class="fa-regular fa-star my-fa-star" onclick="starRating1()" onmouseenter="starRating11()"
+                        id="star1"></i>
+                    <i class="fa-regular fa-star my-fa-star" onclick="starRating2()" onmouseenter="starRating12()"
+                        id="star2"></i>
+                    <i class="fa-regular fa-star my-fa-star" onclick="starRating3()" onmouseenter="starRating13()"
+                        id="star3"></i>
+                    <i class="fa-regular fa-star my-fa-star" onclick="starRating4()" onmouseenter="starRating14()"
+                        id="star4"></i>
+                    <i class="fa-regular fa-star my-fa-star" onclick="starRating5()" onmouseenter="starRating15()"
+                        id="star5"></i>
                 </div>
                 <div id="ratingInput" style="display: none;">
                     <form action="#">

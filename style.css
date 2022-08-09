@@ -25,13 +25,13 @@ button {
     text-align: center;
 }
 
-.fa-star {
+.my-fa-star {
     color: #000;
     font-size: 55px;
     padding: 10px;
 }
 
-.fa-star:hover {
+.my-fa-star:hover {
     cursor: pointer;
     border-radius: 8px;
     padding: 10px;
@@ -65,27 +65,47 @@ button {
     color: #fff;
 }
 
-.star_one:hover {
-    background-color: #ff3722;
-    color: #fff;
+.main_text h2{
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
 }
 
-.star_two:hover {
-    background-color: #ff8622;
-    color: #fff;
+.main_text h1{
+    color: #000;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 80px;
 }
 
-.star_three:hover {
-    background-color: #ffce00;
-    color: #fff;
+.main_text h3{
+    color: rgb(70, 70, 70);
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
 }
 
-.star_four:hover {
-    background-color: #73cf11;
-    color: #fff;
+
+.review__rating__progress {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.star_five:hover {
-    background-color: #00b67a;
-    color: #fff;
+.review__rating__progress .review__rating__level,
+.review__rating__progress {
+    /* 10% is the default width for the level and count labels */
+    flex: 1 1 10%;
+}
+
+.review__rating__progress .review__rating__level {
+    text-align: right;
+    display: flex;
+}
+
+.review__rating__progress .progress {
+    margin: 0.25rem 1rem;
+    flex-grow: 8;
 }
