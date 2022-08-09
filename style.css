@@ -9,9 +9,7 @@ button {
 
 .starBox {
     height: auto;
-    margin-top: 10%;
-    -webkit-box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22);
-    box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22);
+    /* box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22); */
     padding: 50px;
 }
 
@@ -52,15 +50,42 @@ button {
     text-align: center;
     margin-top: 20px;
 }
+
 .btn1 {
     font-family: "Poppins";
     border-radius: 6px;
     padding: 10px 10px;
-    text-decoration: none; 
+    text-decoration: none;
     color: #000;
     border: 1px solid #000000;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: #000;
+    color: #fff;
+}
+
+.star_one:hover {
+    background-color: #ff3722;
+    color: #fff;
+}
+
+.star_two:hover {
+    background-color: #ff8622;
+    color: #fff;
+}
+
+.star_three:hover {
+    background-color: #ffce00;
+    color: #fff;
+}
+
+.star_four:hover {
+    background-color: #73cf11;
+    color: #fff;
+}
+
+.star_five:hover {
+    background-color: #00b67a;
     color: #fff;
 }
