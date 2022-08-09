@@ -23,32 +23,63 @@ function starRating2() {
     star5.style.color = "#000";
     star1.style.background = "#FF8622";
     star2.style.background = "#FF8622";
-    star2.style.borderRadius = '50px';
+    star3.style.background = "#fff";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
 }
 function starRating3() {
     document.getElementById("ratingInput").style.display = 'block';
     document.getElementById("myButton").style.display = 'none';
-    star1.style.color = "#FFCE00";
-    star2.style.color = "#FFCE00";
-    star3.style.color = "#FFCE00";
+    star1.style.color = "#fff";
+    star2.style.color = "#fff";
+    star3.style.color = "#fff";
     star4.style.color = "#000";
     star5.style.color = "#000";
+    star1.style.background = "#FFCE00";
+    star2.style.background = "#FFCE00";
+    star3.style.background = "#FFCE00";
+    star4.style.background = "#fff";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
 }
 function starRating4() {
     document.getElementById("ratingInput").style.display = 'none';
     document.getElementById("myButton").style.display = 'block';
-    star1.style.color = "#73CF11";
-    star2.style.color = "#73CF11";
-    star3.style.color = "#73CF11";
-    star4.style.color = "#73CF11";
+    star1.style.color = "#fff";
+    star2.style.color = "#fff";
+    star3.style.color = "#fff";
+    star4.style.color = "#fff";
     star5.style.color = "#000";
+    star1.style.background = "#73CF11";
+    star2.style.background = "#73CF11";
+    star3.style.background = "#73CF11";
+    star4.style.background = "#73CF11";
+    star5.style.background = "#fff";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
+    star4.style.borderRadius = '8px';
 }
 function starRating5() {
     document.getElementById("ratingInput").style.display = 'none';
     document.getElementById("myButton").style.display = 'block';
-    star1.style.color = "#00B67A";
-    star2.style.color = "#00B67A";
-    star3.style.color = "#00B67A";
-    star4.style.color = "#00B67A";
-    star5.style.color = "#00B67A";
+    star1.style.color = "#fff";
+    star2.style.color = "#fff";
+    star3.style.color = "#fff";
+    star4.style.color = "#fff";
+    star5.style.color = "#fff";
+    star1.style.background = "#00B67A";
+    star2.style.background = "#00B67A";
+    star3.style.background = "#00B67A";
+    star4.style.background = "#00B67A";
+    star5.style.background = "#00B67A";
+    star1.style.borderRadius = '8px';
+    star2.style.borderRadius = '8px';
+    star3.style.borderRadius = '8px';
+    star4.style.borderRadius = '8px';
+    star5.style.borderRadius = '8px';
 }
