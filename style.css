@@ -2,15 +2,18 @@
     font-family: "Poppins";
     src: url(Poppins-Regular.ttf);
 }
-
+/* body{
+    background-color: #000;
+} */
 button {
     font-family: "Poppins";
 }
 
 .starBox {
     height: auto;
-    /* box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22); */
+    box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.22);
     padding: 50px;
+    margin-top: 5%;
 }
 
 .mainHeading {
@@ -108,4 +111,28 @@ button {
 .review__rating__progress .progress {
     margin: 0.25rem 1rem;
     flex-grow: 8;
+}
+.review__rating__stats{
+    padding-top: 30px;
+}
+.progress-bar1{
+    background-color: #ff3722;
+}
+.progress-bar2{
+    background-color: rgb(255 134 34);
+}
+.progress-bar3{
+    background-color: rgb(255 206 0);
+}
+.progress-bar4{
+    background-color: rgb(115 207 17);
+}
+.progress-bar5{
+    background-color: rgb(0 182 122);
+}
+.margin-right{
+    margin-right: 15px;
+}
+.btn_tab{
+    text-align: end;
 }
