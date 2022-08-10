@@ -102,30 +102,33 @@
             <div class="col-md-6 starBox rounded">
                 <h3 class="mainHeading">Submit Your Rating & Reviews:</h3>
                 <div class="starMain">
-                    <i class="fa-regular fa-star my-fa-star" onclick="starRating1()" onmouseover="starRating21()"
-                        id="star1"></i>
-                    <i class="fa-regular fa-star my-fa-star" onclick="starRating2()" onmouseover="starRating12()"
-                        id="star2"></i>
-                    <i class="fa-regular fa-star my-fa-star" onclick="starRating3()" onmouseover="starRating13()"
-                        id="star3"></i>
-                    <i class="fa-regular fa-star my-fa-star" onclick="starRating4()" onmouseover="starRating14()"
-                        id="star4"></i>
-                    <i class="fa-regular fa-star my-fa-star" onclick="starRating5()" onmouseover="starRating15()"
-                        id="star5"></i>
-                </div>
-                <div id="ratingInput" style="display: none;">
-                    <form action="#">
-                        <textarea class="form-control textArea" id="exampleFormControlTextarea1"
-                            placeholder="Enter Your Review Here" rows="3"></textarea>
-                        <button type="button" class="btn btn-outline-dark">Submit</button>
-                    </form>
-                </div>
-                <div id="myButton" style="display: none;">
-                    <a href="#" target="_blank" class="btn1">Click Here For Review</a>
+                    <div class="raDios">
+                        <input type="radio" name="rate" id="rate-1" onclick="starRating5()">
+                        <label for="rate-1" class="fa-regular fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2" onclick="starRating4()">
+                        <label for="rate-2" class="fa-regular fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3" onclick="starRating3()">
+                        <label for="rate-3" class="fa-regular fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4" onclick="starRating2()">
+                        <label for="rate-4" class="fa-regular fa-star"></label>
+                        <input type="radio" name="rate" id="rate-5" onclick="starRating1()">
+                        <label for="rate-5" class="fa-regular fa-star"></label>
+                    </div>
+                    <div id="ratingInput" style="display: none;">
+                        <form action="#">
+                            <textarea class="form-control textArea" id="exampleFormControlTextarea1"
+                                placeholder="Enter Your Review Here" rows="3"></textarea>
+                            <button type="button" class="btn btn-outline-dark">Submit</button>
+                        </form>
+                    </div>
+                    <div id="myButton" style="display: none;">
+                        <a href="#" target="_blank" class="btn1">Click Here For Review</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3"></div>
         </div>
+        <div class="col-md-3"></div>
+    </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

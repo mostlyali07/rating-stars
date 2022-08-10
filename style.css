@@ -97,7 +97,6 @@ button {
 
 .review__rating__progress .review__rating__level,
 .review__rating__progress {
-    /* 10% is the default width for the level and count labels */
     flex: 1 1 10%;
 }
 
@@ -141,4 +140,92 @@ button {
 
 .btn_tab {
     text-align: end;
+}
+
+.container .raDios input {
+    display: none;
+}
+
+.raDios label {
+    font-size: 36px;
+    color: #000;
+    padding: 10px;
+    float: right;
+    margin: 0px 2px;
+    transition: all 0.2s ease;
+}
+.raDios{
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px 126px 70px 70px;
+}
+
+input#rate-1:not(:checked)~label:hover,
+input#rate-1:not(:checked)~label:hover~label {
+    color: #fff;
+    background-color: #00B67A;
+    border-radius: 8px;
+}
+
+input#rate-2:not(:checked)~label:hover,
+input#rate-2:not(:checked)~label:hover~label {
+    color: #fff;
+    background-color: #73CF11;
+    border-radius: 8px;
+}
+
+input#rate-3:not(:checked)~label:hover,
+input#rate-3:not(:checked)~label:hover~label {
+    color: #fff;
+    background-color: #FFCE00;
+    border-radius: 8px;
+}
+
+input#rate-4:not(:checked)~label:hover,
+input#rate-4:not(:checked)~label:hover~label {
+    color: #fff;
+    background-color: #FF8622;
+    border-radius: 8px;
+}
+
+input#rate-5:not(:checked)~label:hover,
+input#rate-5:not(:checked)~label:hover~label {
+    color: #fff;
+    background-color: #FF3722;
+    border-radius: 8px;
+}
+
+input:checked ~ label{
+    color: #fff;
+    background-color: #FF3722;
+    border-radius: 8px;
+}
+input#rate-1:checked~label {
+    color: #fff;
+    background-color: #00B67A;
+    border-radius: 8px;
+}
+
+input#rate-2:checked~label {
+    color: #fff;
+    background-color: #73CF11;
+    border-radius: 8px;
+}
+
+input#rate-3:checked~label {
+    color: #fff;
+    background-color: #FFCE00;
+    border-radius: 8px;
+}
+
+input#rate-4:checked~label {
+    color: #fff;
+    background-color: #FF8622;
+    border-radius: 8px;
+}
+
+input#rate-5:checked~label {
+    color: #fff;
+    background-color: #FF3722;
+    border-radius: 8px;
 }
