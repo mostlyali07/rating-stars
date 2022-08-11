@@ -150,82 +150,47 @@ button {
     font-size: 36px;
     color: #000;
     padding: 10px;
-    float: right;
     margin: 0px 2px;
     transition: all 0.2s ease;
 }
-.raDios{
-    /* display: flex;
-    justify-content: center; */
-    padding: 10px 126px 70px 70px;
+
+.raDios {
+    display: flex;
+    flex-direction: row-reverse;
+    place-content: center;
 }
 
-input#rate-1:not(:checked)~label:hover,
-input#rate-1:not(:checked)~label:hover~label {
-    color: #fff;
-    background-color: #00B67A;
-    border-radius: 8px;
+label[for="rate-1"]:hover,
+label[for="rate-1"]:hover~label {
+    color: #fff !important;
+    background-color: #00B67A !important;
+    border-radius: 8px !important;
 }
 
-input#rate-2:not(:checked)~label:hover,
-input#rate-2:not(:checked)~label:hover~label {
-    color: #fff;
-    background-color: #73CF11;
-    border-radius: 8px;
+label[for="rate-2"]:hover,
+label[for="rate-2"]:hover~label {
+    color: #fff !important;
+    background-color: #73CF11 !important;
+    border-radius: 8px !important;
 }
 
-input#rate-3:not(:checked)~label:hover,
-input#rate-3:not(:checked)~label:hover~label {
-    color: #fff;
-    background-color: #FFCE00;
-    border-radius: 8px;
+label[for="rate-3"]:hover,
+label[for="rate-3"]:hover~label {
+    color: #fff !important;
+    background-color: #FFCE00 !important;
+    border-radius: 8px !important;
 }
 
-input#rate-4:not(:checked)~label:hover,
-input#rate-4:not(:checked)~label:hover~label {
-    color: #fff;
-    background-color: #FF8622;
-    border-radius: 8px;
+label[for="rate-4"]:hover,
+label[for="rate-4"]:hover~label {
+    color: #fff !important;
+    background-color: #FF8622 !important;
+    border-radius: 8px !important;
 }
 
-input#rate-5:not(:checked)~label:hover,
-input#rate-5:not(:checked)~label:hover~label {
-    color: #fff;
-    background-color: #FF3722;
-    border-radius: 8px;
-}
-
-input:checked ~ label{
-    color: #fff;
-    background-color: #FF3722;
-    border-radius: 8px;
-}
-input#rate-1:checked~label {
-    color: #fff;
-    background-color: #00B67A;
-    border-radius: 8px;
-}
-
-input#rate-2:checked~label {
-    color: #fff;
-    background-color: #73CF11;
-    border-radius: 8px;
-}
-
-input#rate-3:checked~label {
-    color: #fff;
-    background-color: #FFCE00;
-    border-radius: 8px;
-}
-
-input#rate-4:checked~label {
-    color: #fff;
-    background-color: #FF8622;
-    border-radius: 8px;
-}
-
-input#rate-5:checked~label {
-    color: #fff;
-    background-color: #FF3722;
-    border-radius: 8px;
+label[for="rate-5"]:hover,
+label[for="rate-5"]:hover~label {
+    color: #fff !important;
+    background-color: #FF3722 !important;
+    border-radius: 8px !important;
 }
